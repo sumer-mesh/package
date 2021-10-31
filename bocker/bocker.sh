@@ -57,6 +57,6 @@ sudo apt install -y docker-ce
 # Add current user to the docker group
 sudo usermod -aG docker ${USERNAME}
 
-echo "Installed docker, show the status with the command `sudo systemctl status docker`, 
+echo "Installed docker, show the status with the command 'sudo systemctl status docker', 
     please log out under current user manually in order to use docker command without root."
 
